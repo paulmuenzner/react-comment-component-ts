@@ -28,7 +28,7 @@
   <h3 align="center">React TS Comment Component</h3>
 
   <p align="center">
-    Votes - Pagination - Answer option
+    Votes - Pagination - ReactPortal Modal
     <br />
     <a href="#about-the-project"><strong>EXPLORE DOCS</strong></a>
     <br />
@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This React Comment Component stands out as a robust and highly customizable commenting solution specifically crafted for React applications. Notably, it is fortified with strongly typed TypeScript, ensuring a solid and reliable foundation. What sets this component apart is its unique integration within a Vite project, allowing users to effortlessly extract it from 'src/component/comment.' This approach offers unparalleled flexibility and simplifies the customization process, setting it apart from conventional black-box packages.
+This handcrafted React Comment Component stands out as a robust and highly customizable commenting solution specifically crafted for React applications. Notably, it is fortified with strongly typed TypeScript, ensuring a solid and reliable foundation. What sets this component apart is its unique integration within a Vite project, allowing users to effortlessly extract it from 'src/component/comment.' This approach offers unparalleled flexibility and simplifies the customization process, setting it apart from conventional black-box packages.
 
 In the landscape of open-source internet solutions, the React Comment Component addresses a noticeable gap by providing a comprehensive and flexible commenting system. Many existing options fall short in delivering a satisfying balance of style and functionality. This React Comment Component fills this void, offering users an all-encompassing solution that addresses common limitations found in other open-source comment components. Its adaptability and ease of integration make it a standout choice for React developers who seek a robust and highly customizable commenting solution.
 
