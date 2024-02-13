@@ -195,6 +195,7 @@ This React Comment Component offers a variety of customizable settings to tailor
 
 -   ✅ Configure maximum number of comments per pagination page
 -   ✅ Colorize vote buttons on hover
+-   ✅ Only one vote per comment and user. Preventing multiple comment votes.
 -   ⬜️ Add captcha
 -   ⬜️ Implement Testing
 -   ⬜️ Replace 'react-icons' package with local scg solution

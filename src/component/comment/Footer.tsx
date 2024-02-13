@@ -10,6 +10,8 @@ import {
   UpVoteComponent,
 } from './styles'
 
+import { messageVoted } from './messages'
+
 import { FiCornerUpLeft } from 'react-icons/fi'
 import { CommentModal } from './modal'
 import { allowDownVoting, allowUpVoting } from './settings'
@@ -26,6 +28,7 @@ export const Footer = ({
   const [votesDown, setVotesDown] = useState<number>(downVotes)
   const [votesUp, setVotesUp] = useState<number>(upVotes)
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false)
+  const [hasVoted, setHasVoted] = useState<boolean>(false)
 
   // EVENT HANDLER
   const handleMouseHover = (vote: 'up' | 'down', isHovering: boolean) => {
@@ -34,10 +37,18 @@ export const Footer = ({
 
   // VOTES
   const upVote = () => {
+    if (hasVoted === true) {
+      return messageVoted()
+    }
     setVotesUp(votesUp + 1)
+    setHasVoted(true)
   }
   const downVote = () => {
+    if (hasVoted === true) {
+      return messageVoted()
+    }
     setVotesDown(votesDown + 1)
+    setHasVoted(true)
   }
 
   return (

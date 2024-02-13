@@ -33,3 +33,19 @@ export const messageValidate: (content: string) => void = (content: string) => {
     timer: 5000,
   })
 }
+
+export const messageVoted: () => void = () => {
+  Swal.fire({
+    icon: 'info',
+    showClass: {
+      backdrop: 'swal2-noanimation',
+      popup: '',
+      icon: '',
+    },
+    animation: false,
+    title: `Just a second`,
+    text: `You have already voted for this comment`,
+    showConfirmButton: true,
+    timer: 5000,
+  })
+}
