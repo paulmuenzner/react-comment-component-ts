@@ -85,6 +85,7 @@ export const ListItem = styled.li`
 export const ListItemContent = styled.a`
   color: #777;
   user-select: none;
+  display: inline-block;
   text-decoration: none;
   background-color: transparent;
   touch-action: manipulation;

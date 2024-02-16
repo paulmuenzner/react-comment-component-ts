@@ -63,9 +63,7 @@ export const Footer = ({
                 onClick={upVote}
               >
                 <UpVoteComponent hover={hoverUp} />
-                <NumberVotes hoverUp={hoverUp}>
-                  &nbsp; {`${votesUp}`}
-                </NumberVotes>
+                <NumberVotes hoverUp={hoverUp}>&nbsp;{votesUp}</NumberVotes>
               </ListItemContent>
             ) : null}
           </ListItem>
@@ -78,7 +76,7 @@ export const Footer = ({
               >
                 <DownVoteComponent hover={hoverDown} />
                 <NumberVotes hoverDown={hoverDown}>
-                  &nbsp;{`${votesDown}`}
+                  &nbsp;{votesDown}
                 </NumberVotes>
               </ListItemContent>
             ) : null}
