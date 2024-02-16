@@ -112,7 +112,9 @@ This project is basically built with and for:
 
 <!-- GETTING STARTED -->
 ## Demo
-Coming soon ...
+
+https://www.paulmuenzner.com/demos/comment
+
 
 
 
